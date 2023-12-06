@@ -1,6 +1,4 @@
 import com.codeborne.pdftest.PDF;
-import com.codeborne.xlstest.XLS;
-import com.opencsv.CSVReader;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -18,9 +16,10 @@ public class PdfParsingTest {
 
     @Test
     void pdfParsingTest() throws Exception {
-        try (InputStream is = cl.getResourceAsStream("examplePDF.pdf");
+        InputStream is = cl.getResourceAsStream("Google.pdf");
              PDF pdf = new PDF(is);
-             Assertions.assertEquals("Chromium",pdf.text());
+             Assertions.assertEquals( "Россия", pdf.text);
+             System.out.println();
     }
 }
 //        InputStream stream = cl.getResourceAsStream("examplePDF.pdf");

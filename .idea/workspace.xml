@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb62c483-3d1a-4144-87bf-4ddc7b6be12a" name="Changes" comment="passed pdf">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/index.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ZipArhiveChecking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/example.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PdfParsingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PdfParsingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Google.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/examplePDF.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hw_11.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Ведомость пересортицы.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/marak/IdeaProjects/qa_guru_hw_11.1_files/src/test/resources&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marak/IdeaProjects/qa_guru_hw_11.1_files/src/test/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -79,7 +76,7 @@
       <recent name="C:\Users\marak\IdeaProjects\qa_guru_hw_11.1_files\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PdfParsingTest.xlsParsingTest">
+  <component name="RunManager" selected="Gradle.ZipArhiveChecking">
     <configuration name="PdfParsingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -152,10 +149,60 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="ZipArhiveChecking" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ZipArhiveChecking&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ZipArhiveChecking.zipTestXlsx" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ZipArhiveChecking.zipTestXlsx&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PdfParsingTest.xlsParsingTest" />
+        <item itemvalue="Gradle.ZipArhiveChecking" />
+        <item itemvalue="Gradle.ZipArhiveChecking.zipTestXlsx" />
         <item itemvalue="Gradle.PdfParsingTest" />
+        <item itemvalue="Gradle.PdfParsingTest.xlsParsingTest" />
         <item itemvalue="Gradle.PdfParsingTest.pdfParsingTest" />
       </list>
     </recent_temporary>
@@ -193,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701894334394</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="passed pdf">
+      <option name="closed" value="true" />
+      <created>1702128276092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702128276093</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

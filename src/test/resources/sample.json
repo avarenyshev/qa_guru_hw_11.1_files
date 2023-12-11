@@ -1,0 +1,8 @@
+{
+  "firstName": "Joe",
+  "lastName": "Jackson",
+  "gender": "male",
+  "age": 28,
+  "cars": ["Toyota", "Subaru"],
+  "wife": "Jeniffer"
+}

@@ -15,11 +15,12 @@ import java.util.zip.ZipInputStream;
 
 public class ZipArhiveChecking {
     private ClassLoader cl = ZipArhiveChecking.class.getClassLoader();
+    String archive = "example.zip";
 
     @Test
     void zipTestPDF() throws Exception {
         try (ZipInputStream is = new ZipInputStream(
-                cl.getResourceAsStream("example.zip"))) {
+                cl.getResourceAsStream(archive))) {
             ZipEntry entry;
             while ((entry = is.getNextEntry()) != null) {
                 if (entry.getName().equals("index.pdf")) {
@@ -34,7 +35,7 @@ public class ZipArhiveChecking {
     @Test
     void zipTestXlsx() throws Exception {
         try (ZipInputStream is = new ZipInputStream(
-                cl.getResourceAsStream("example.zip"))) {
+                cl.getResourceAsStream(archive))) {
             ZipEntry entry;
             while ((entry = is.getNextEntry()) != null) {
                 if (entry.getName().equals("example.xlsx")) {
@@ -45,9 +46,10 @@ public class ZipArhiveChecking {
         }
 
     }
+    @Test
     void zipTestCsv() throws Exception {
         try (ZipInputStream is = new ZipInputStream(
-                cl.getResourceAsStream("example.zip"))) {
+                cl.getResourceAsStream(archive))) {
             ZipEntry entry;
             while ((entry = is.getNextEntry()) != null) {
                 if (entry.getName().equals("sportsSearch.csv")) {

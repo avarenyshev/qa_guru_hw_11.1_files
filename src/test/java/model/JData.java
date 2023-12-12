@@ -4,7 +4,7 @@ public class JData {
         public String firstname;
         public String lastname;
         public String gender;
-        public int age;
+        public String age;
         public List <String> cars;
         public String wife;
 

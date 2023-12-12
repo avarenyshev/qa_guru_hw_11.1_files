@@ -1,6 +1,6 @@
 {
-  "firstName": "Joe",
-  "lastName": "Jackson",
+  "firstname": "Joe",
+  "lastname": "Jackson",
   "gender": "male",
   "age": 28,
   "cars": ["Toyota", "Subaru"],

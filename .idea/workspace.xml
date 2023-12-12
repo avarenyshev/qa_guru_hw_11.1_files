@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb62c483-3d1a-4144-87bf-4ddc7b6be12a" name="Changes" comment="added string arhive">
+    <list default="true" id="fb62c483-3d1a-4144-87bf-4ddc7b6be12a" name="Changes" comment="finish line">
       <change afterPath="$PROJECT_DIR$/src/test/java/CheckJson.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/model/JData.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/example/example.7z" afterDir="false" />
@@ -65,17 +65,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/marak/IdeaProjects/qa_guru_hw_11.1_files/src/test/resources",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marak/IdeaProjects/qa_guru_hw_11.1_files/src/test/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\marak\IdeaProjects\qa_guru_hw_11.1_files\src\test\resources" />
@@ -264,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702235896127</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finish line">
+      <option name="closed" value="true" />
+      <created>1702330815756</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702330815756</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +294,7 @@
     <MESSAGE value="passed pdf" />
     <MESSAGE value="passed all unzip and parsed" />
     <MESSAGE value="added string arhive" />
-    <option name="LAST_COMMIT_MESSAGE" value="added string arhive" />
+    <MESSAGE value="finish line" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish line" />
   </component>
 </project>

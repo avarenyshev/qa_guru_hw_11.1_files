@@ -1,18 +1,13 @@
 import com.codeborne.pdftest.PDF;
 import com.codeborne.xlstest.XLS;
 import com.opencsv.CSVReader;
-import org.apache.poi.ss.usermodel.Cell;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import java.io.InputStreamReader;
 import java.util.List;
 import java.util.zip.ZipEntry;
-import java.util.zip.ZipFile;
 import java.util.zip.ZipInputStream;
-
-//import static sun.jvm.hotspot.HelloWorld.e;
 
 public class ZipArhiveChecking {
     private ClassLoader cl = ZipArhiveChecking.class.getClassLoader();

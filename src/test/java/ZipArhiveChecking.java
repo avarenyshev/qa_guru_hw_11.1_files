@@ -3,6 +3,7 @@ import com.codeborne.xlstest.XLS;
 import com.opencsv.CSVReader;
 import org.apache.poi.ss.usermodel.Cell;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.InputStreamReader;
@@ -18,6 +19,7 @@ public class ZipArhiveChecking {
     String archive = "example.zip";
 
     @Test
+    @DisplayName ("Проверка PDF в архиве")
     void zipTestPDF() throws Exception {
         try (ZipInputStream is = new ZipInputStream(
                 cl.getResourceAsStream(archive))) {
@@ -33,6 +35,7 @@ public class ZipArhiveChecking {
     }
 
     @Test
+    @DisplayName ("Проверка XLS в архиве")
     void zipTestXlsx() throws Exception {
         try (ZipInputStream is = new ZipInputStream(
                 cl.getResourceAsStream(archive))) {
@@ -47,6 +50,7 @@ public class ZipArhiveChecking {
 
     }
     @Test
+    @DisplayName ("Проверка CSV в архиве")
     void zipTestCsv() throws Exception {
         try (ZipInputStream is = new ZipInputStream(
                 cl.getResourceAsStream(archive))) {

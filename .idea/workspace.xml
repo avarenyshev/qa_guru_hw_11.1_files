@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb62c483-3d1a-4144-87bf-4ddc7b6be12a" name="Changes" comment="finish line">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CheckJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/JData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/example/example.7z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/example/example.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/example/index.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/example/sportsSearch.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/sample.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ZipArhiveChecking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ZipArhiveChecking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/example.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/import_empl_csv.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/index.pdf" beforeDir="false" />
-    </list>
+    <list default="true" id="fb62c483-3d1a-4144-87bf-4ddc7b6be12a" name="Changes" comment="final fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +70,7 @@
       <recent name="C:\Users\marak\IdeaProjects\qa_guru_hw_11.1_files\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CheckJson">
+  <component name="RunManager" selected="Gradle.CheckJson.checkJsonTest">
     <configuration name="CheckJson" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -207,8 +193,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CheckJson" />
         <item itemvalue="Gradle.CheckJson.checkJsonTest" />
+        <item itemvalue="Gradle.CheckJson" />
         <item itemvalue="Gradle.ZipArhiveChecking.zipTestCsv" />
         <item itemvalue="Gradle.ZipArhiveChecking" />
         <item itemvalue="Gradle.ZipArhiveChecking.zipTestXlsx" />
@@ -272,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702330815756</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="final fix">
+      <option name="closed" value="true" />
+      <created>1702393569897</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702393569897</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,6 +289,7 @@
     <MESSAGE value="passed all unzip and parsed" />
     <MESSAGE value="added string arhive" />
     <MESSAGE value="finish line" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish line" />
+    <MESSAGE value="final fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="final fix" />
   </component>
 </project>

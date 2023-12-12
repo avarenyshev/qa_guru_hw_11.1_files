@@ -1,6 +1,7 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
 import model.JData;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import java.io.InputStream;
@@ -14,6 +15,7 @@ public class CheckJson {
     ObjectMapper objectMapper = new ObjectMapper();
 
     @Test
+    @DisplayName("Проверка карточки с данными в формате JSON")
     void checkJsonTest() throws IOException {
         try (InputStream is = cl.getResourceAsStream("sample.json");
              InputStreamReader isr = new InputStreamReader(is)) {

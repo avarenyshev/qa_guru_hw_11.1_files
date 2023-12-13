@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb62c483-3d1a-4144-87bf-4ddc7b6be12a" name="Changes" comment="final fix" />
+    <list default="true" id="fb62c483-3d1a-4144-87bf-4ddc7b6be12a" name="Changes" comment="deleted non used imports">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +72,7 @@
       <recent name="C:\Users\marak\IdeaProjects\qa_guru_hw_11.1_files\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CheckJson.checkJsonTest">
+  <component name="RunManager" selected="Gradle.CheckJson">
     <configuration name="CheckJson" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -193,10 +195,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CheckJson.checkJsonTest" />
         <item itemvalue="Gradle.CheckJson" />
-        <item itemvalue="Gradle.ZipArhiveChecking.zipTestCsv" />
         <item itemvalue="Gradle.ZipArhiveChecking" />
+        <item itemvalue="Gradle.CheckJson.checkJsonTest" />
+        <item itemvalue="Gradle.ZipArhiveChecking.zipTestCsv" />
         <item itemvalue="Gradle.ZipArhiveChecking.zipTestXlsx" />
       </list>
     </recent_temporary>
@@ -266,7 +268,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702393569897</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added Displayname">
+      <option name="closed" value="true" />
+      <created>1702393976722</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702393976722</updated>
+    </task>
+    <task id="LOCAL-00009" summary="deleted non used imports">
+      <option name="closed" value="true" />
+      <created>1702394057413</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702394057413</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +308,8 @@
     <MESSAGE value="added string arhive" />
     <MESSAGE value="finish line" />
     <MESSAGE value="final fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="final fix" />
+    <MESSAGE value="added Displayname" />
+    <MESSAGE value="deleted non used imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted non used imports" />
   </component>
 </project>

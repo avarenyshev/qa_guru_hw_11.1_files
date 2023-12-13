@@ -18,7 +18,6 @@ compileTestJava {
 dependencies {
     testImplementation(
             'org.junit.jupiter:junit-jupiter:5.10.1',
-            'com.codeborne:selenide:6.19.1',
             'org.slf4j:slf4j-simple:2.0.7',
             'commons-io:commons-io:2.15.0',
             'com.codeborne:pdf-test:1.8.1',
